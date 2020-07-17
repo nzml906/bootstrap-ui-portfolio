@@ -7,6 +7,9 @@ import CallToAction from '../components/call-to-action.vue';
 import Contacts from '../components/contacts.vue';
 import Contents from '../components/contents.vue';
 import Features from '../components/features.vue';
+import Footers from '../components/footers.vue';
+import Forms from '../components/forms.vue';
+import Headers from '../components/headers.vue';
 
 Vue.use(VueRouter);
 
@@ -39,6 +42,24 @@ const routes = [
     path: '/features',
     name: 'features',
     components: { default: Features, header: Nav }
+  },
+
+  {
+    path: '/footers',
+    name: 'footers',
+    components: { default: Footers, header: Nav }
+  },
+
+  {
+    path: '/forms',
+    name: 'forms',
+    components: { default: Forms, header: Nav }
+  },
+
+  {
+    path: '/headers',
+    name: 'headers',
+    components: { default: Headers, header: Nav }
   }
 ];
 

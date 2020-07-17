@@ -11,6 +11,7 @@
               <router-link to="/" tag="a" class="btn btn-outline-primary m-1"
                 >Home</router-link
               >
+
               <router-link
                 to="/call-to-action"
                 tag="a"
@@ -39,12 +40,32 @@
                 >Features</router-link
               >
 
-              <a class="btn btn-outline-primary m-1">Footers</a>
-              <a class="btn btn-outline-primary m-1">Forms</a>
-              <a class="btn btn-outline-primary m-1">Headers</a>
+              <router-link
+                to="/footers"
+                tag="a"
+                class="btn btn-outline-primary m-1"
+                >Footers</router-link
+              >
+
+              <router-link
+                to="/forms"
+                tag="a"
+                class="btn btn-outline-primary m-1"
+                >Forms</router-link
+              >
+
+              <router-link
+                to="/headers"
+                tag="a"
+                class="btn btn-outline-primary m-1"
+                >Headers</router-link
+              >
+              <!-- 
+              
               <a class="btn btn-outline-primary m-1">Pricings</a>
               <a class="btn btn-outline-primary m-1">Teams</a>
               <a class="btn btn-outline-primary m-1">Testimonials</a>
+              -->
             </p>
           </div>
         </nav>

@@ -60,12 +60,27 @@
                 class="btn btn-outline-primary m-1"
                 >Headers</router-link
               >
-              <!-- 
-              
-              <a class="btn btn-outline-primary m-1">Pricings</a>
-              <a class="btn btn-outline-primary m-1">Teams</a>
-              <a class="btn btn-outline-primary m-1">Testimonials</a>
-              -->
+
+              <router-link
+                to="/pricings"
+                tag="a"
+                class="btn btn-outline-primary m-1"
+                >Pricings</router-link
+              >
+
+              <router-link
+                to="/teams"
+                tag="a"
+                class="btn btn-outline-primary m-1"
+                >Teams</router-link
+              >
+
+              <router-link
+                to="/testimonials"
+                tag="a"
+                class="btn btn-outline-primary m-1"
+                >Testimonials</router-link
+              >
             </p>
           </div>
         </nav>

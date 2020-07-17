@@ -10,6 +10,9 @@ import Features from '../components/features.vue';
 import Footers from '../components/footers.vue';
 import Forms from '../components/forms.vue';
 import Headers from '../components/headers.vue';
+import Pricings from '../components/pricings.vue';
+import Teams from '../components/teams.vue';
+import Testimonials from '../components/testimonials.vue';
 
 Vue.use(VueRouter);
 
@@ -60,6 +63,24 @@ const routes = [
     path: '/headers',
     name: 'headers',
     components: { default: Headers, header: Nav }
+  },
+
+  {
+    path: '/pricings',
+    name: 'pricings',
+    components: { default: Pricings, header: Nav }
+  },
+
+  {
+    path: '/teams',
+    name: 'teams',
+    components: { default: Teams, header: Nav }
+  },
+
+  {
+    path: '/testimonials',
+    name: 'testimonials',
+    components: { default: Testimonials, header: Nav }
   }
 ];
 
